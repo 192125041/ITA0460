@@ -1,0 +1,3 @@
+Name=readline(prompt="Name: ")
+age=readline(prompt="age:")
+print(paste(Name,age))
