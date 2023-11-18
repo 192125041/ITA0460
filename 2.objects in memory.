@@ -1,0 +1,7 @@
+name="padmakar";
+n1=10;
+n2=2;
+num=c(10,30,30,40,50,70,20)
+print(ls())
+print("Objects in memory:")
+print(ls.str())
