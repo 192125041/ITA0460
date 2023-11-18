@@ -1,0 +1,10 @@
+a = "R program is easy."
+print("Original vector(string)")
+print(a)
+print("Unique elements of the said vector:")
+print(unique(tolower(a)))
+num = c(5,7,8,4,6)
+print("Original vector(number)")
+print(num)
+print("Unique elements of the said vector:")
+print(unique(num))
