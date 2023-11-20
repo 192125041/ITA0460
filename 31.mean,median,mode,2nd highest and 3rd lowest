@@ -1,0 +1,9 @@
+v=c(90, 50, 70, 80, 70, 60, 20, 30, 80, 90, 20)
+print(mean(v))
+print(median(v))
+mode=as.numeric(names(sort(table(v), decreasing = TRUE)[1]))
+cat( mode,"\n")
+second_highest = unique(sort(v, decreasing = TRUE))[2]
+cat( second_highest,"\n")
+third_lowest =unique(sort(v))[3]
+cat(third_lowest,"\n")
